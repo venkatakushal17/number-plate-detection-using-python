@@ -1,7 +1,7 @@
 const jsonfile = require('jsonfile');
 const moment = require('moment');
 const simpleGit = require('simple-git');
-const FILE_PATH = './datta.json';
+const FILE_PATH = './data.json';
 
 const makeCommit = (n) => {
     if (n == 0) return simpleGit().push();
